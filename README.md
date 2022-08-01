@@ -52,7 +52,7 @@ As you can see above, I installed both the latest (currently Version 11) and the
 
 Long story short, this depends on the C++ compiler the OS itself was compiled with, and JelOS apparently was compiled with G++ V10. In that one, the latest LibC is Version 3.4.28
 
-Therefore it's recommended to cross-compile your applications with CPP / G++ V10, or even V9 if you run into similar library versioning issues in your targeted environment.
+Therefore it's recommended to cross-compile your applications with GCC / G++ V10, or even V9 if you run into similar library versioning issues in your targeted environment.
 
 ## Compiling your application
 
