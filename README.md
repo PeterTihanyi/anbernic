@@ -42,7 +42,7 @@ I tried to make the source code as simple as possible. When you compile it with 
 
 *#Install the GNU C and C++ Version 10 compilers for ARM 64-bit*
 
-`sudo apt install gcc-10-aarch64-linux-gnu g++-10-aarch64-linux-gnu binutils-aarch64-linux-gnu`
+`sudo apt install gcc-10-aarch64-linux-gnu g++-10-aarch64-linux-gnu`
 
 ## Important note on compilers
 
