@@ -62,7 +62,7 @@ I downloaded this AARCH64 version of SDL2 from [archlinuxarm.org (SDL2 package)]
 
 ## Installing under PortMaster
 
-A working example can be found in the `ports` directory, you need to copy the `Template` directory and the `Template.sh` shell file to your SD Card's `/roms/ports/` directory. The 'Template'sh' file sets up some environment variables and launches the executable `template`, when you select it on the user interface.
+A working AARCH64 example can be found in the `ports` directory. You need to copy the `Template` directory and the `Template.sh` shell file to your SD Card's `/roms/ports/` directory. The `Template.sh` file sets up some environment variables and launches the executable `template`, when you select it on the user interface.
 
 You may download the port of the game [2048 (zip file)](https://github.com/christianhaitian/PortMaster/blob/main/2048.zip) to inspect how you can launch a customized RetroArch core, if you choose to develop an application or game that way.
 
