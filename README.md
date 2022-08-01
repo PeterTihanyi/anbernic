@@ -58,7 +58,7 @@ Therefore it's recommended to cross-compile your applications with GCC / G++ V10
 
 As you can see in `build-aarch64.sh`, the Template is compiled with G++ V10, it defines the HANDHELD label, and uses a local copy of SDL2 for Includes and for the Library itself. This library file `libSDL2.so` needs to be shipped with your application's executable. If you somehow can static link it into your executable, that may be even better, but it definitely works alongside the application.
 
-I downloaded this AARCH64 version of SDL2 from [archlinuxarm.org (SDL2 package)](https://archlinuxarm.org/packages/aarch64/sdl2). If you're developing for 32-bit ARM, or for MIPS, you will need to download, or cross-compile the SDL2 library for yourself.
+I downloaded this AARCH64 version of SDL2 from [archlinuxarm.org (SDL2 package)](https://archlinuxarm.org/packages/aarch64/sdl2). If you're developing for 32-bit ARM, or for MIPS, you will need to download a different package, or cross-compile the SDL2 library for yourself.
 
 ## Installing under PortMaster
 
