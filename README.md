@@ -16,7 +16,7 @@ Also, I use Ubuntu x86-64 as my development environment for simplicity.
 
 ## Template - A minimal SDL2 'game' for testing
 
-I wrote a small template that can be used for testing and as the basis of a game. You need to copy the contents of the `ports` directory onto your SD Card's `/roms/ports` directory to make it show up under the Ports game selector screen. The template shows a square on a blue screen. You can move it around with the D-Pad, and by pressing the A, B, X... etc buttons, it changes to a color associated with the button. The program exits when you press Select and Start together.
+I wrote a small template that can be used for testing and as the basis of a game. You need to copy the contents of the `ports` directory onto your SD Card's `/roms/ports/` directory to make it show up under the Ports game selector screen. The template shows a square on a blue screen. You can move it around with the D-Pad, and by pressing the A, B, X... etc buttons, it changes to a color associated with the button. The program exits when you press Select and Start together.
 
 I tried to make the source code as simple as possible. When you compile it with #define HANDHELD, the application launches in full screen mode. Otherwise it launches in windowed mode, which is good for development purposes. The build shell files show how to compile it for various environments.
 
@@ -30,7 +30,7 @@ I tried to make the source code as simple as possible. When you compile it with 
 
 *#Install SDL2 on Ubuntu for development*
 
-`sudo apt-get install libsdl2-2.0-0 libsdl2-dev libsdl2-doc`
+`sudo apt install libsdl2-2.0-0 libsdl2-dev libsdl2-doc`
 
 *#Install the GNU C and C++ compilers for X86 32/64-bit*
 
